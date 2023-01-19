@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var fValue: String = "100"
+    @State var fValue: String = "0"
+
+    @State var isVisible = false
 
     let numberFormatter: NumberFormatter = {
         let numberFormatter = NumberFormatter()
@@ -46,6 +48,12 @@ struct ContentView: View {
         }
         .foregroundColor(.brown)
         .font(.title)
+        .opacity(isVisible ? 1.0 : 0.0)
+        // .offset(x: 0, y: isVisible ? 0.0 : 100.0)
+        .animation(.easeIn(duration: 2.0), value: self.isVisible)
+        .onAppear {
+            self.isVisible = true
+        }
     }
 }
 
