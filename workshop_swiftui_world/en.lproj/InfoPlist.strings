@@ -1,0 +1,9 @@
+/* 
+  InfoPlists.strings
+  workshop_swiftui_world
+
+  Created by Levent Kantaroğlu on 19.01.2023.
+  
+*/
+"CFBundleName" = "World Trotter";
+"CFBundleDisplayName" = "World Trotter";

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  workshop_swiftui_world
+
+  Created by Levent Kantaroğlu on 18.01.2023.
+  
+*/
+"conversion_text_field_placeholder" = "değer";
+"converesion_is_actually" = "aslında";
+
+"tab_conversion" = "Çevirici";
+"tab_map" = "Harita";
+
+"map_city_istanbul" = "İstanbul";
+"map_city_london" = "Londra";

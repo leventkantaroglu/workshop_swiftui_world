@@ -11,6 +11,11 @@
 		C0BDF7B32976C52B0095577D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDF7B22976C52B0095577D /* ContentView.swift */; };
 		C0BDF7B52976C52C0095577D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BDF7B42976C52C0095577D /* Assets.xcassets */; };
 		C0BDF7B82976C52C0095577D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BDF7B72976C52C0095577D /* Preview Assets.xcassets */; };
+		C0BDF7BF29782B9A0095577D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDF7BE29782B9A0095577D /* MapView.swift */; };
+		C0BDF7C229787A840095577D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0BDF7C429787A840095577D /* Localizable.strings */; };
+		C0BDF7C729787F500095577D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0BDF7C929787F500095577D /* Localizable.strings */; };
+		C0F4AC59297910D900E86093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0F4AC5B297910D900E86093 /* InfoPlist.strings */; };
+		C0F4AC5E297910FD00E86093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0F4AC60297910FD00E86093 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		C0BDF7B22976C52B0095577D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0BDF7B42976C52C0095577D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0BDF7B72976C52C0095577D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0BDF7BE29782B9A0095577D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C0BDF7C329787A840095577D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C0BDF7C829787F500095577D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C0F4AC5A297910D900E86093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0F4AC5F297910FD00E86093 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0F4AC612979150B00E86093 /* workshop-swiftui-world-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "workshop-swiftui-world-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,16 @@
 		C0BDF7AF2976C52B0095577D /* workshop_swiftui_world */ = {
 			isa = PBXGroup;
 			children = (
+				C0F4AC612979150B00E86093 /* workshop-swiftui-world-Info.plist */,
+				C0BDF7C429787A840095577D /* Localizable.strings */,
 				C0BDF7B02976C52B0095577D /* workshop_swiftui_worldApp.swift */,
+				C0BDF7C929787F500095577D /* Localizable.strings */,
 				C0BDF7B22976C52B0095577D /* ContentView.swift */,
+				C0BDF7BE29782B9A0095577D /* MapView.swift */,
 				C0BDF7B42976C52C0095577D /* Assets.xcassets */,
 				C0BDF7B62976C52C0095577D /* Preview Content */,
+				C0F4AC5B297910D900E86093 /* InfoPlist.strings */,
+				C0F4AC60297910FD00E86093 /* InfoPlist.strings */,
 			);
 			path = workshop_swiftui_world;
 			sourceTree = "<group>";
@@ -109,6 +126,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = C0BDF7A42976C52B0095577D;
 			productRefGroup = C0BDF7AE2976C52B0095577D /* Products */;
@@ -126,7 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0BDF7B82976C52C0095577D /* Preview Assets.xcassets in Resources */,
+				C0BDF7C729787F500095577D /* Localizable.strings in Resources */,
+				C0BDF7C229787A840095577D /* Localizable.strings in Resources */,
+				C0F4AC5E297910FD00E86093 /* InfoPlist.strings in Resources */,
 				C0BDF7B52976C52C0095577D /* Assets.xcassets in Resources */,
+				C0F4AC59297910D900E86093 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,10 +161,46 @@
 			files = (
 				C0BDF7B32976C52B0095577D /* ContentView.swift in Sources */,
 				C0BDF7B12976C52B0095577D /* workshop_swiftui_worldApp.swift in Sources */,
+				C0BDF7BF29782B9A0095577D /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0BDF7C429787A840095577D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BDF7C329787A840095577D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C0BDF7C929787F500095577D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BDF7C829787F500095577D /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C0F4AC5B297910D900E86093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F4AC5A297910D900E86093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0F4AC60297910FD00E86093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F4AC5F297910FD00E86093 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C0BDF7B92976C52C0095577D /* Debug */ = {
@@ -270,6 +328,7 @@
 				DEVELOPMENT_TEAM = S3BYYZPAW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "workshop-swiftui-world-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +358,7 @@
 				DEVELOPMENT_TEAM = S3BYYZPAW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "workshop-swiftui-world-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
